@@ -1,0 +1,1 @@
+web: gunicorn bsaletest.wsgi --log-file -

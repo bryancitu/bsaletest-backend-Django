@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # external apps
     'rest_framework',
     'corsheaders',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -152,6 +153,12 @@ CORS_ORIGIN_ALLOW_ALL = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# dir our media file
+STATIC_ROOT = BASE_DIR / 'media'
+
+# dir our static file (Django files by default)
+STATICFILES_DIRS = [BASE_DIR / 'static']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field

@@ -225,14 +225,14 @@ web: gunicorn bsaletest.wsgi --log-file -
 ## Extra Notes
 you can see the endpoints in the followings links
 - products by category endpoint: \
-general endpoint: [https://bsaletest-app.herokuapp.com/api/product/products/<category>/](https://bsaletest-app.herokuapp.com/api/product/products/<category>/)\
+general endpoint: [https://bsaletest-app.herokuapp.com/api/product/products/<<category>>/](https://bsaletest-app.herokuapp.com/api/product/products/<category>/)\
 example endpoint: [https://bsaletest-app.herokuapp.com/api/product/products/pisco/](https://bsaletest-app.herokuapp.com/api/product/products/pisco/)
 
 - category endpoint: \
 [https://bsaletest-app.herokuapp.com/api/product/categories/](https://bsaletest-app.herokuapp.com/api/product/categories/)
 
 - search enpoint: \
-general endpoint: [https://bsaletest-app.herokuapp.com/api/product/search/<query>/](https://bsaletest-app.herokuapp.com/api/product/search/pisco/)\
+general endpoint: [https://bsaletest-app.herokuapp.com/api/product/search/<<query>>/](https://bsaletest-app.herokuapp.com/api/product/search/pisco/)\
 example endpoint: [https://bsaletest-app.herokuapp.com/api/product/search/pisco/](https://bsaletest-app.herokuapp.com/api/product/search/pisco/)
 
 ### Django has a admin panel and the url is:
